@@ -1,9 +1,9 @@
 
 :root{
-    --primary-color: #fd951f;
-    --bg-color: #130f0d;
-    --text-color: #f0f0f5;
-    --light-color: rgba(255, 255, 255, 0.04);
+    --primary-color: #4d4691;
+    --bg-color: #999999;
+    --text-color: #080808;
+    --light-color: rgba(209, 209, 209, 0.062);
   }
   
   *{
@@ -33,7 +33,7 @@
   }
   
   form{
-    background-color: var(--light-color);
+    background-color: #eeeded;
     width: 100%;
     max-width: 500px;
     margin: 32px auto;
@@ -63,14 +63,14 @@
       border-bottom: 1px solid var(--primary-color);
       background-color: transparent;
       outline: none;
-      color: var(--text-color);
+      color: #222222;
       font-size: 1em;
   }
   button {
     margin-top: 16px;
     background-color: var(--primary-color);
     border-radius: 30px;
-    color: var(--bg-color);
+    color: #fff;
     cursor: pointer;
     animation: moveInput 7 00ms;
   }
@@ -78,7 +78,7 @@
     position: absolute;
     top: 16px;
     left: 0;
-    color: rgba(255, 255, 255, 0.6) ;
+    color: rgba(26, 26, 26, 0.6) ;
     transition: .4s;
   }
   
@@ -103,7 +103,8 @@
 .squares li{
     width: 40px;
     height: 40px;
-    background-color: var(--light-color);
+    border: 1px solid var(--text-color);
+    background-color: transparent;
     display: block;
     position: absolute;
     bottom: -40px;

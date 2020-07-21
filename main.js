@@ -2,6 +2,14 @@ const btnSubmit = document.querySelector(".btn-submit");
 const form = document.querySelector("form");
 
 
+const fields = document.querySelectorAll("[required]")
+
+
+// for(field of fields){
+//     field.addEventListener("invalid", event =>{
+//         console.log("campo invalido")
+//     })
+// }
 btnSubmit.addEventListener("click", event =>{
     event.preventDefault();
 
